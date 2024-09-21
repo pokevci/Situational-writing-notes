@@ -53,3 +53,63 @@ pre {
 .name {
     margin-left: 60px;
 }
+
+.example {
+    margin-left: 300px;
+}
+
+.example img{
+    width: 700px;
+    height: auto;
+}
+
+.DaA {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+    color: #4CAF50;
+}
+h2 {
+    font-size: 2em;
+    margin-top: 20px;
+    color: #333;
+}
+h3 {
+    font-size: 1.5em;
+    color: #555;
+}
+p {
+    margin: 10px 0;
+}
+.example {
+    background-color: #f9f9f9;
+    border-left: 4px solid #4CAF50;
+    padding: 10px;
+    margin: 15px 0;
+}
+.example p {
+    font-style: italic;
+}
+.footer {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 0.9em;
+    color: #777;
+}
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2em;
+    }
+    h2 {
+        font-size: 1.6em;
+    }
+    h3 {
+        font-size: 1.3em;
+    }
+}
